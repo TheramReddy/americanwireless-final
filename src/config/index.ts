@@ -1,43 +1,43 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'UI Kits',
-    value: 'ui_kits' as const,
+    label: 'Trending',
+    value: 'Trending Now' as const,
     featured: [
       {
-        name: 'Editor picks',
+        name: 'Best Overall Picks',
         href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
+        imageSrc: '/nav/ui-kits/16pro_new.jpg',
       },
       {
         name: 'New Arrivals',
         href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        imageSrc: '/nav/ui-kits/s25_new.jpg',
       },
       {
         name: 'Bestsellers',
         href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
+        imageSrc: '/nav/ui-kits/Huawei_new.jpg',
       },
     ],
   },
   {
-    label: 'Icons',
-    value: 'icons' as const,
+    label: 'Accesories',
+    value: 'Best_Sellers' as const,
     featured: [
       {
-        name: 'Favorite Icon Picks',
+        name: 'DOLBY',
         href: `/products?category=icons`,
-        imageSrc: '/nav/icons/picks.jpg',
+        imageSrc: '/nav/icons/soundbar_new.jpg',
       },
       {
-        name: 'New Arrivals',
+        name: 'Headphones',
         href: '/products?category=icons&sort=desc',
-        imageSrc: '/nav/icons/new.jpg',
+        imageSrc: '/nav/icons/airpods_new.jpg',
       },
       {
-        name: 'Bestselling Icons',
+        name: 'Cases',
         href: '/products?category=icons',
-        imageSrc: '/nav/icons/bestsellers.jpg',
+        imageSrc: '/nav/icons/case.webp',
       },
     ],
   },
